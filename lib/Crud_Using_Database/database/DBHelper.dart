@@ -3,7 +3,6 @@ import 'package:sqflite/sqflite.dart';
 
 class DBHelper {
   late Database _db;
-
   DBHelper() {
     _initDB();
   }
